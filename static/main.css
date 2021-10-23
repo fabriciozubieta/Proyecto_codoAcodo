@@ -42,10 +42,14 @@ a{
     text-decoration: none;
 }
 
-.div-header{
+header{
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+main{
+    padding-top: 6rem;
 }
 
 .navbar{
