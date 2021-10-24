@@ -195,7 +195,6 @@ main{
 
 footer{
     bottom: 0;
-    position: 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,7 +247,7 @@ footer{
 }
 
 
-@media (min-width: 760px){
+@media (min-width: 760px){ /* Tablet */
 
     header{
         display: flex;
@@ -284,25 +283,62 @@ footer{
         border-bottom: none;
     }
 
-/*
-    .footer-conteiner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
+    /*-----------------MAIN------------------------------*/
     
-    .footer-section{
-        
+    .main-title{
+        font-size: 4rem;
+        color: var(--blanco-t);
+        margin-bottom: 2rem;
     }
-*/
+
+    .main-text{
+        font-size: 2rem;
+        color: var(--blanco-t);
+        margin-bottom: 2.5rem;
+    }
+
+    .main-text2{
+        font-size: 2rem;
+    }
+
+    .iframe{
+        width: 500px;
+        height: 500px;
+    }
+    /*-------------------MAIN---------------------------*/
+
 }
 
-@media (min-width: 1100px){
+@media (min-width: 1100px){  /*PC Escritorio*/
 
     .navbar{
        min-width: 1100px; /*ancho de todo el navbar que oficia de header*/
     }
+
+    /*-----------------MAIN------------------------------*/
+    
+    .main-title{
+        font-size: 8rem;
+        color: var(--blanco-t);
+        margin-bottom: 5.5rem;
+    }
+
+    .main-text{
+        font-size: 3rem;
+        color: var(--blanco-t);
+        margin-bottom: 3rem;
+    }
+
+    .main-text2{
+        font-size: 4rem;
+    }
+
+    .iframe{
+        width: 600px;
+        height: 600px;
+    }
+    /*-------------------MAIN---------------------------*/
+
 
 }
 
